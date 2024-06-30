@@ -22,5 +22,10 @@ export default defineNuxtConfig({
       plugins: [tailwindTypography]
     },
   },
-  runtimeConfig: {},
+  runtimeConfig: {
+    baseURL:"/portafolio/",
+    public: {
+      baseURL:"/portafolio/"
+    }
+  },
 })
