@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { DB } from "~/utils/db"
+const { baseURL } = useRuntimeConfig()
 
 const title = "Home"
 const error = ref()
@@ -37,7 +38,7 @@ onMounted(() => getItems())
     <LazyUIMain :error="error" :isError="isError" :isLoading="isLoading">
       <div class="flex flex-row">
         <div v-for="item in items" :key="item.id" class="w-1/3 p-2">
-          <NuxtLink :to="`/${item.slug}`" class="w-full">
+          <NuxtLink :to="`${baseURL}${item.slug}`" class="w-full">
             <img :src="item.thumbnail" :alt="item.title" class="w-full aspect-square object-cover rounded">
             <div class="py-2">{{ item.excerpt }}</div>
           </NuxtLink>
