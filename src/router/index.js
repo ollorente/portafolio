@@ -21,6 +21,11 @@ const routes = [
     name: 'Project',
     component: () => import(/* webpackChunkName "projects" */ '@/views/Project.vue')
   },
+  {
+    path: '/:pathMacth(.*)*',
+    name: 'NotFound',
+    component: () => import(/* webpackChunkName "not-found" */ '@/views/NotFound.vue')
+  },
 ]
 
 const router = createRouter({
