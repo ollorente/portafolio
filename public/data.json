@@ -30,6 +30,44 @@
       "updatedAt": "2021-12-06T14:20:09.0500z"
     }
   ],
+  "grafs": [
+    {
+      "id": "1638744961026",
+      "text": "Primer graf",
+      "userId": "1638744961026",
+      "isActive": true,
+      "isLock": false,
+      "createdAt": "2021-12-06T14:20:09.0500z",
+      "updatedAt": "2021-12-06T14:20:09.0500z"
+    },
+    {
+      "id": "1638744961027",
+      "text": "Segundo graf",
+      "userId": "1638744961026",
+      "isActive": true,
+      "isLock": false,
+      "createdAt": "2021-12-07T14:20:09.0500z",
+      "updatedAt": "2021-12-07T14:20:09.0500z"
+    },
+    {
+      "id": "1638744961028",
+      "text": "Tercer graf",
+      "userId": "1638744961026",
+      "isActive": true,
+      "isLock": false,
+      "createdAt": "2021-12-08T14:20:09.0500z",
+      "updatedAt": "2021-12-08T14:20:09.0500z"
+    },
+    {
+      "id": "1638744961029",
+      "text": "Cuarto graf",
+      "userId": "1638744961026",
+      "isActive": true,
+      "isLock": false,
+      "createdAt": "2021-12-09T14:20:09.0500z",
+      "updatedAt": "2021-12-09T14:20:09.0500z"
+    }
+  ],
   "links": [
     {
       "id": "1638744961026",
@@ -45,6 +83,18 @@
       "rel": "",
       "notes": "",
       "rss": "",
+      "createdAt": "2021-12-06T14:20:09.0500z",
+      "updatedAt": "2021-12-06T14:20:09.0500z"
+    }
+  ],
+  "mediaFiles": [
+    {
+      "id": "1638744961026",
+      "url": "",
+      "providerPublicId": "",
+      "userId": "1638744961026",
+      "isActive": true,
+      "isLock": false,
       "createdAt": "2021-12-06T14:20:09.0500z",
       "updatedAt": "2021-12-06T14:20:09.0500z"
     }
