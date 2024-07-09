@@ -1,7 +1,11 @@
 <script setup>
+import PageLayout from '@/layouts/Page.vue'
+
 const title = "Contacto"
 </script>
 
 <template>
-  <h1 class="text-2xl font-semiblod">{{ title }}</h1>
+  <PageLayout>
+    <h1 class="text-2xl font-semiblod">{{ title }}</h1>
+  </PageLayout>
 </template>
