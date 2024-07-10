@@ -1,17 +1,14 @@
-<script setup lang="ts">
+<script setup>
 import { ref } from "vue"
 import UISidebarLeft from "@/components/UI/Sidebar/Left/index.vue"
-import UISidebarRight from "@/components/UI/Sidebar/Right/index.vue"
 
 const user = ref({})
-const handleOpenGrafModal = ref({})
-const hndleUserLogout = ref({})
 </script>
 
 <template>
   <div class="bg-white dark:bg-dim-900">
 
-    <div v-if="user" class="min-h-full">
+    <div class="min-h-full">
 
       <div class="grid grid-cols-12 mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:gap-5">
 
@@ -23,19 +20,13 @@ const hndleUserLogout = ref({})
         </div>
 
         <!-- MainContent -->
-        <main class="col-span-12 md:col-span-11 xl:col-span-10">
+        <main class="col-span-12 md:col-span-11 xl:col-span-10 border-l border-r">
           <slot></slot>
         </main>
 
       </div>
 
     </div>
-
-    <AuthPage v-else />
-
-    <!-- <UIModal :isOpen="postGrafModal" @onClose="handelModalClose">
-      <GrafForm :replyTo="replyGraf" showReply :user="user" @onSuccess="handleFormSuccess" />
-    </UIModal> -->
 
   </div>
 </template>

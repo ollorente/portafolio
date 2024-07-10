@@ -14,7 +14,7 @@ const props = defineProps({
     type: Boolean,
     default: false
   },
-  hideActions : {
+  hideActions: {
     type: Boolean,
     default: false
   }
@@ -30,12 +30,12 @@ function handleCommentClick() {
 </script>
 
 <template>
-  <div>
+  <RouterLink :to="{ name: 'Project', params: { id: props.graf.id } }">
 
-    <UIGrafItemHeader :graf="props.graf" />
+    <!-- <UIGrafItemHeader :graf="props.graf" /> -->
 
     <div :class="grafBodyWapper">
-      <p class="flex-shrink font-medium text-gray-800 w-auto dark:text-hite" :class="textSize">
+      <p class="flex-shrink font-medium text-gray-800 w-auto dark:text-hite pe-3" :class="textSize">
         {{ props.graf.text }}
       </p>
 
@@ -50,5 +50,5 @@ function handleCommentClick() {
 
     </div>
 
-  </div>
+  </RouterLink>
 </template>

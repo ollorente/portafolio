@@ -1,4 +1,5 @@
 <script setup>
+import UIMainHeader from '@/components/UI/Main/Header.vue'
 import PageLayout from '@/layouts/Page.vue'
 
 const title = "Contacto"
@@ -6,6 +7,6 @@ const title = "Contacto"
 
 <template>
   <PageLayout>
-    <h1 class="text-2xl font-semiblod">{{ title }}</h1>
+    <UIMainHeader>{{ title }}</UIMainHeader>
   </PageLayout>
 </template>

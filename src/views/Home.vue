@@ -1,7 +1,8 @@
 <script setup>
 import { onMounted, ref } from "vue"
-import DefaultLayout from '@/layouts/Default.vue'
+import UIMainHeader from '@/components/UI/Main/Header.vue'
 import UIGrafListFeed from "@/components/UI/Graf/ListFeed.vue"
+import DefaultLayout from '@/layouts/Default.vue'
 import useGraf from "@/composables/useGraf.js"
 
 const { GetAllGrafs } = useGraf()
@@ -33,7 +34,7 @@ onMounted(() => getItems())
 
 <template>
   <DefaultLayout class="">
-    <!-- <h1 class="text-3xl fw-bold">{{ title }}</h1> -->
+    <UIMainHeader>{{ title }}</UIMainHeader>
 
     <UIGrafListFeed :grafs="items" />
 

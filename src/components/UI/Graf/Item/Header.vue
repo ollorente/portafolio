@@ -9,7 +9,9 @@ const props = defineProps({
 })
 
 const author = props.graf.userId
-const replyToGrafYrl = computed(() => `/proyecto/${props.graf?.id}`)
+const replyToGrafYrl = computed(() => {
+  return { name: 'Project', params: { id: props.graf?.id } }
+})
 </script>
 
 <template>

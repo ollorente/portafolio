@@ -33,7 +33,7 @@ const props = defineProps({
 
     <div class="mt-2 space-y-3">
 
-      <UISidebarLeftTab url="/" active>
+      <UISidebarLeftTab :url="{ name: 'Home' }" active>
         <template v-slot:icon>
           <HomeIcon />
         </template>
@@ -42,12 +42,12 @@ const props = defineProps({
         </template>
       </UISidebarLeftTab>
 
-      <UISidebarLeftTab url="/explorar">
+      <UISidebarLeftTab :url="{ name: 'Projects' }">
         <template v-slot:icon>
           <MagnifyingGlassIcon />
         </template>
         <template v-slot:name>
-          Explorar
+          Proyectos
         </template>
       </UISidebarLeftTab>
 
