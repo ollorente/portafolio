@@ -33,7 +33,7 @@
   "grafs": [
     {
       "id": "1638744961026",
-      "text": "Primer graf",
+      "text": "Primer graf. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae rem cum at quibusdam obcaecati! Nam consequuntur corporis molestias dicta impedit?",
       "userId": "1638744961026",
       "isActive": true,
       "isLock": false,
@@ -42,7 +42,7 @@
     },
     {
       "id": "1638744961027",
-      "text": "Segundo graf",
+      "text": "Segundo graf. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae rem cum at quibusdam obcaecati! Nam consequuntur corporis molestias dicta impedit?",
       "userId": "1638744961026",
       "isActive": true,
       "isLock": false,
@@ -51,7 +51,7 @@
     },
     {
       "id": "1638744961028",
-      "text": "Tercer graf",
+      "text": "Tercer graf. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae rem cum at quibusdam obcaecati! Nam consequuntur corporis molestias dicta impedit?",
       "userId": "1638744961026",
       "isActive": true,
       "isLock": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "1638744961029",
-      "text": "Cuarto graf",
+      "text": "Cuarto graf. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae rem cum at quibusdam obcaecati! Nam consequuntur corporis molestias dicta impedit?",
       "userId": "1638744961026",
       "isActive": true,
       "isLock": false,
@@ -126,7 +126,7 @@
       "author": "1638744961026",
       "date": "0000-00-00T00:00:00.000z",
       "dateGMT": "0000-00-00T00:00:00.000z",
-      "content": "",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae rem cum at quibusdam obcaecati! Nam consequuntur corporis molestias dicta impedit?",
       "title": "Mi primer post",
       "excerpt": "Mi primer post montado en esta plataforma",
       "status": "public",
