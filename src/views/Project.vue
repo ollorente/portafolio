@@ -1,20 +1,26 @@
 <script setup>
 import { onMounted, ref } from "vue"
 import { useRoute } from "vue-router"
-import useTailwindConfig from "@/composables/useTailwindConfig.js"
+import { ArrowLeftIcon } from "@heroicons/vue/24/outline"
 import UIMainHeader from '@/components/UI/Main/Header.vue'
-import DefaultLayout from '@/layouts/Default.vue'
 import useGraf from "@/composables/useGraf.js"
+import useMediaFile from "@/composables/useMediaFile.js"
+import useTailwindConfig from "@/composables/useTailwindConfig.js"
+import DefaultLayout from '@/layouts/Default.vue'
 
 const route = useRoute()
-useTailwindConfig()
+const { twitterBorderColor } = useTailwindConfig()
 const { GetOneGraf } = useGraf()
+const { GetAllMediaFiles } = useMediaFile()
 const ID = route.params.id
 const title = "Proyecto"
 const Error = ref()
 const isError = ref(false)
 const isLoading = ref(true)
+const limit = ref(10)
+const page = ref(0)
 const item = ref()
+const mediaFiles = ref()
 
 const getItem = async () => {
   isLoading.value = true
@@ -23,6 +29,7 @@ const getItem = async () => {
     const data = await GetOneGraf(ID)
 
     item.value = data
+    await getMediaFiles()
   } catch (error) {
     isError.value = true
     Error.value = error
@@ -31,25 +38,33 @@ const getItem = async () => {
   }
 }
 
+const getMediaFiles = async () => {
+  const data = await GetAllMediaFiles(ID, { limit: limit.value, page: page.value })
+  mediaFiles.value = data
+}
+
 onMounted(() => getItem())
 </script>
 
 <template>
   <DefaultLayout class="">
-    <UIMainHeader>
-      <RouterLink :to="{ name: 'Projects' }" class="text-red-700 font-bold px-1">O</RouterLink>
+    <UIMainHeader class="">
+      <RouterLink :to="{ name: 'Projects' }" class="text-red-700 font-bold px-1">
+        <ArrowLeftIcon class="w-8 h-8 m-0 p-0" />
+      </RouterLink>
       {{ title }}
     </UIMainHeader>
 
     <div class="">
-      <p class="flex-shrink font-medium text-gray-800 w-auto dark:text-hite p-3">
-        {{ item?.text }}
-      </p>
 
-      <!-- <div v-for="image in item.mediaFiles" :key="image.id" class="flex my-3 mr-2 border-2 rounded-2xl"
+      <div v-for="image in mediaFiles" :key="image.id" class="flex my-3 mr-2 border-2 rounded-2xl"
         :class="twitterBorderColor">
         <img :src="image.url" class="w-full rounded-2xl" />
-      </div> -->
+      </div>
+
+      <p class="flex-shrink font-medium text-gray-800 w-auto dark:text-hite p-4">
+        {{ item?.text }}
+      </p>
 
     </div>
 
