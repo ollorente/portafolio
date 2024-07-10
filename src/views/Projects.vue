@@ -36,7 +36,7 @@ onMounted(() => getItems())
   <DefaultLayout class="">
     <UIMainHeader>{{ title }}</UIMainHeader>
 
-    <UIGrafListFeed :grafs="items" />
+    <UIGrafListFeed :grafs="items" compact />
 
   </DefaultLayout>
 </template>
