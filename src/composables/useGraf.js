@@ -22,20 +22,20 @@ export default () => {
             return 0
           })
           .splice(page, limit)
-          .map(e => RefGraf(e))
+          .map((e) => RefGraf(e))
       })
 
-    return items
+    return await items
   }
 
   const GetOneGraf = async (id) => {
     const item = await HTTP()
       .then(async (response) => {
-        const item = await response[MODEL].find((e) => e.id === id)
-        return Graf(item)
+        return await response[MODEL]
+          .find((e) => e.id === id)
       })
 
-    return item
+    return Graf(item)
   }
 
   return {
