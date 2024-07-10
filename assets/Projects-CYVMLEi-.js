@@ -1,1 +1,0 @@
-import{_ as t}from"./Default.vue_vue_type_script_setup_true_lang-51M5R6cl.js";import{o as s,k as e,w as o,b as a,t as r}from"./index-B6TmSGYb.js";import"./index-BA_OlpSk.js";const c="Proyectos",f={__name:"Projects",setup(_){return(i,l)=>(s(),e(t,{class:""},{default:o(()=>[a("h1",{class:"text-2xl font-semiblod"},r(c))]),_:1}))}};export{f as default};

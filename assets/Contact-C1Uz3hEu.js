@@ -1,1 +1,0 @@
-import{_ as t}from"./Page.vue_vue_type_script_setup_true_lang-DEg4ppA0.js";import{o as a,k as o,w as e,b as s,t as c}from"./index-B6TmSGYb.js";import"./index-BA_OlpSk.js";const r="Contacto",f={__name:"Contact",setup(n){return(_,l)=>(a(),o(t,null,{default:e(()=>[s("h1",{class:"text-2xl font-semiblod"},c(r))]),_:1}))}};export{f as default};
