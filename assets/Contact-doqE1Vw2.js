@@ -1,1 +1,0 @@
-import{U as a}from"./index-CNw4Z3YL.js";import{_ as e}from"./Page-NwgzMCsr.js";import{a as o,c as r,w as t,b as s,d as c,t as n}from"./index-CWhb3MNi.js";const _="Contacto",d={__name:"Contact",setup(l){return(i,m)=>(o(),r(e,null,{default:t(()=>[s(a,null,{default:t(()=>[c(n(_))]),_:1})]),_:1}))}};export{d as default};
