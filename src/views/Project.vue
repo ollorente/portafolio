@@ -1,12 +1,10 @@
 <script setup>
-import { onMounted, ref } from "vue"
+import { onMounted, ref, watch } from "vue"
 import { useRoute } from "vue-router"
-import { ArrowLeftIcon } from "@heroicons/vue/24/outline"
-import UIMainHeader from '@/components/UI/Main/Header.vue'
+import UIMainDetail from "@/components/UI/Main/Detail.vue"
 import useGraf from "@/composables/useGraf.js"
 import useMediaFile from "@/composables/useMediaFile.js"
 import useTailwindConfig from "@/composables/useTailwindConfig.js"
-import DefaultLayout from '@/layouts/Default.vue'
 
 const route = useRoute()
 const { twitterBorderColor } = useTailwindConfig()
@@ -43,21 +41,15 @@ const getMediaFiles = async () => {
   mediaFiles.value = data
 }
 
+watch(() => useRoute().fullPath, () => getItem())
 onMounted(() => getItem())
 </script>
 
 <template>
-  <DefaultLayout class="">
-    <UIMainHeader class="">
-      <RouterLink :to="{ name: 'Projects' }" class="text-red-700 font-bold px-1">
-        <ArrowLeftIcon class="w-8 h-8 m-0 p-0" />
-      </RouterLink>
-      {{ title }}
-    </UIMainHeader>
-
+  <UIMainDetail :back="{ name: 'Projects' }" :title="title">
     <div class="">
 
-      <div v-for="image in mediaFiles" :key="image.id" class="flex my-3 mr-2 border-2 rounded-2xl"
+      <div v-for="image in mediaFiles" :key="image.id" class="flex mt-4 mx-4 border-2 rounded-2xl"
         :class="twitterBorderColor">
         <img :src="image.url" class="w-full rounded-2xl" />
       </div>
@@ -67,6 +59,5 @@ onMounted(() => getItem())
       </p>
 
     </div>
-
-  </DefaultLayout>
+  </UIMainDetail>
 </template>

@@ -1,6 +1,6 @@
 <script setup>
-import { onMounted, ref } from "vue"
-import DefaultLayout from '@/layouts/Default.vue'
+import { onMounted, ref, watch } from "vue"
+import { useRoute } from "vue-router"
 import IconSpinner from "@/components/Icon/Spinner.vue"
 import UISidebarLeft from "@/components/UI/Sidebar/Left/index.vue"
 import UISidebarRight from "@/components/UI/Sidebar/Right/index.vue"
@@ -37,6 +37,7 @@ const getItems = async () => {
   }
 }
 
+watch(() => useRoute().fullPath, () => getItems())
 onMounted(() => getItems())
 </script>
 

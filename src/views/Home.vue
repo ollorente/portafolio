@@ -1,8 +1,8 @@
 <script setup>
-import { onMounted, ref } from "vue"
-import UIMainHeader from '@/components/UI/Main/Header.vue'
+import { onMounted, ref, watch } from "vue"
+import { useRoute } from "vue-router"
+import UIMainPost from "@/components/UI/Main/Post.vue"
 import UIGrafListFeed from "@/components/UI/Graf/ListFeed.vue"
-import DefaultLayout from '@/layouts/Default.vue'
 import useGraf from "@/composables/useGraf.js"
 
 const { GetAllGrafs } = useGraf()
@@ -20,7 +20,12 @@ const getItems = async () => {
   try {
     const data = await GetAllGrafs({ limit: limit.value, page: page.value })
 
-    items.value = data
+    items.value = data.map((e) => {
+      return {
+        ...e,
+        url: { name: 'Project', params: { id: e.id } }
+      }
+    })
   } catch (error) {
     isError.value = true
     Error.value = error
@@ -29,14 +34,14 @@ const getItems = async () => {
   }
 }
 
+watch(() => useRoute().fullPath, () => getItems())
 onMounted(() => getItems())
 </script>
 
 <template>
-  <DefaultLayout class="">
-    <UIMainHeader>{{ title }}</UIMainHeader>
+  <UIMainPost :title="title">
 
-    <UIGrafListFeed :grafs="items" />
+    <UIGrafListFeed :grafs="items" compact />
 
-  </DefaultLayout>
+  </UIMainPost>
 </template>

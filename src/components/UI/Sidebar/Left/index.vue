@@ -1,6 +1,6 @@
 <script setup>
 import { HomeIcon } from "@heroicons/vue/24/solid"
-import { BellIcon, BookmarkIcon, ChevronDownIcon, DocumentTextIcon, EllipsisHorizontalIcon, InboxIcon, MagnifyingGlassIcon, PencilIcon, UserIcon, UserGroupIcon } from "@heroicons/vue/24/outline"
+import { ChevronDownIcon, ClipboardDocumentCheckIcon, FilmIcon, PhotoIcon, UserIcon, VideoCameraIcon } from "@heroicons/vue/24/outline"
 import IconOllorente from "@/components/Icon/Ollorente.vue"
 import UISidebarLeftTab from "@/components/UI/Sidebar/Left/Tab.vue"
 import useTailwindConfig from "@/composables/useTailwindConfig.js"
@@ -42,61 +42,43 @@ const props = defineProps({
         </template>
       </UISidebarLeftTab>
 
+      <UISidebarLeftTab :url="{ name: 'Animations' }">
+        <template v-slot:icon>
+          <FilmIcon />
+        </template>
+        <template v-slot:name>
+          Animaciones
+        </template>
+      </UISidebarLeftTab>
+
+      <UISidebarLeftTab :url="{ name: 'GraphicDesigns' }">
+        <template v-slot:icon>
+          <PhotoIcon />
+        </template>
+        <template v-slot:name>
+          Diseños
+        </template>
+      </UISidebarLeftTab>
+
       <UISidebarLeftTab :url="{ name: 'Projects' }">
         <template v-slot:icon>
-          <MagnifyingGlassIcon />
+          <ClipboardDocumentCheckIcon />
         </template>
         <template v-slot:name>
           Proyectos
         </template>
       </UISidebarLeftTab>
 
-      <UISidebarLeftTab url="/notificaciones">
+      <UISidebarLeftTab :url="{ name: 'Videos' }">
         <template v-slot:icon>
-          <BellIcon />
+          <VideoCameraIcon />
         </template>
         <template v-slot:name>
-          Notificaciones
+          Videos
         </template>
       </UISidebarLeftTab>
 
-      <UISidebarLeftTab url="/mensajes">
-        <template v-slot:icon>
-          <InboxIcon />
-        </template>
-        <template v-slot:name>
-          Mensajes
-        </template>
-      </UISidebarLeftTab>
-
-      <UISidebarLeftTab url="/listas">
-        <template v-slot:icon>
-          <DocumentTextIcon />
-        </template>
-        <template v-slot:name>
-          Listas
-        </template>
-      </UISidebarLeftTab>
-
-      <UISidebarLeftTab url="/marcadores">
-        <template v-slot:icon>
-          <BookmarkIcon />
-        </template>
-        <template v-slot:name>
-          Marcadores
-        </template>
-      </UISidebarLeftTab>
-
-      <UISidebarLeftTab url="/comunidades">
-        <template v-slot:icon>
-          <UserGroupIcon />
-        </template>
-        <template v-slot:name>
-          Comunidades
-        </template>
-      </UISidebarLeftTab>
-
-      <UISidebarLeftTab url="/perfil">
+      <UISidebarLeftTab :url="{ name: 'Profile' }" class="hidden">
         <template v-slot:icon>
           <UserIcon />
         </template>
@@ -105,46 +87,21 @@ const props = defineProps({
         </template>
       </UISidebarLeftTab>
 
-      <UISidebarLeftTab url="/mas">
-        <template v-slot:icon>
-          <EllipsisHorizontalIcon />
-        </template>
-        <template v-slot:name>
-          Más
-        </template>
-      </UISidebarLeftTab>
-
-      <!-- <div class="hidden xl:block">
-        <UIButton liquid size="lg" @click="emits('onGraf')">
-          <span class="font-bold">
-            Grafo
-          </span>
-        </UIButton>
-      </div>
-
-      <div class="block xl:hidden">
-        <UIButton @click="emits('onGraf')">
-          <div class="w-6 h-6 font-bold">
-            <PencilIcon />
-          </div>
-        </UIButton>
-      </div> -->
-
     </div>
 
-    <!-- <div
+    <RouterLink :to="{ name: 'Profile' }"
       class="flex flex-row items-center justify-center px-2 py-2 mx-auto mt-auto mb-5 rounded-full cursor-pointer w-14 xl:w-full hover:bg-gray-100 dark:hover:bg-dim-800 my-4"
-      :class="defaultTransition" @click="emits('onLogout')">
+      :class="defaultTransition">
 
       <div class="flex flex-row">
-        <img :src="props.user.logo" alt="" class="w-10 h-10 rounded-full" />
+        <UserIcon class="w-10 h-10 text-red-600 rounded-full" />
 
         <div class="flex-col hidden ml-2 xl:block">
-          <h1 class="text-sm font-bold text-gray-800 dark:text-white">
-            {{ user.name }}
-          </h1>
+          <h3 class="text-sm font-bold text-gray-800 dark:text-white">
+            Perfil
+          </h3>
           <p class="text-sm text-gray-400">
-            {{ user.handle }}
+            Oscar Llorente
           </p>
         </div>
       </div>
@@ -155,7 +112,7 @@ const props = defineProps({
         </div>
       </div>
 
-    </div> -->
+    </RouterLink>
 
   </div>
 </template>
