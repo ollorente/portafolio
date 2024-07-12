@@ -32,7 +32,7 @@ onMounted(() => getMediaFiles())
 </script>
 
 <template>
-  <RouterLink :to="{ name: 'Project', params: { id: props.graf.id } }">
+  <RouterLink :to="props.graf.url">
 
     <div class="">
 
