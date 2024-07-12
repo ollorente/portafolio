@@ -19,7 +19,7 @@ function redirect(graf) {
 </script>
 
 <template>
-  <div class="">
+  <div class="transition">
 
     <div v-if="isEmptyArray" class="p-4">
       <p class="text-center text-gray-500" :class="defaultTransition">No hay publicaciones 😢</p>
