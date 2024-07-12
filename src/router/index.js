@@ -12,6 +12,54 @@ const routes = [
     }
   },
   {
+    path: '/animaciones',
+    name: 'Animations',
+    component: () => import(/* webpackChunkName "animations" */ '@/views/Animations.vue'),
+    meta: {
+      title: `Animaciones ${BASE_URL_TITLE}`
+    }
+  },
+  {
+    path: '/animaciones/:id',
+    name: 'Animation',
+    component: () => import(/* webpackChunkName "animation" */ '@/views/Animation.vue'),
+    meta: {
+      title: `Animación ${BASE_URL_TITLE}`
+    }
+  },
+  {
+    path: '/buscar',
+    name: 'Search',
+    component: () => import(/* webpackChunkName "search" */ '@/views/Search.vue'),
+    meta: {
+      title: `Buscar ${BASE_URL_TITLE}`
+    }
+  },
+  {
+    path: '/disenos-graficos',
+    name: 'GraphicDesigns',
+    component: () => import(/* webpackChunkName "graphic-designs" */ '@/views/GraphicDesigns.vue'),
+    meta: {
+      title: `Diseños gráficos ${BASE_URL_TITLE}`
+    }
+  },
+  {
+    path: '/disenos-graficos/:id',
+    name: 'GraphicDesign',
+    component: () => import(/* webpackChunkName "graphic-design" */ '@/views/GraphicDesign.vue'),
+    meta: {
+      title: `Diseño gráfico ${BASE_URL_TITLE}`
+    }
+  },
+  {
+    path: '/perfil',
+    name: 'Profile',
+    component: () => import(/* webpackChunkName "profile" */ '@/views/Static.vue'),
+    meta: {
+      title: `Perfil ${BASE_URL_TITLE}`
+    }
+  },
+  {
     path: '/proyectos',
     name: 'Projects',
     component: () => import(/* webpackChunkName "projects" */ '@/views/Projects.vue'),
@@ -20,7 +68,7 @@ const routes = [
     }
   },
   {
-    path: '/proyecto/:id',
+    path: '/proyectos/:id',
     name: 'Project',
     component: () => import(/* webpackChunkName "project" */ '@/views/Project.vue'),
     meta: {
@@ -28,43 +76,27 @@ const routes = [
     }
   },
   {
-    path: '/accesibilidad',
-    name: 'Accessibility',
-    component: () => import(/* webpackChunkName "accessibility" */ '@/views/Contact.vue'),
+    path: '/videos',
+    name: 'Videos',
+    component: () => import(/* webpackChunkName "videos" */ '@/views/Videos.vue'),
     meta: {
-      title: `Accesibilidad ${BASE_URL_TITLE}`
+      title: `Videos ${BASE_URL_TITLE}`
     }
   },
   {
-    path: '/cookies',
-    name: 'Cookies',
-    component: () => import(/* webpackChunkName "cookies" */ '@/views/Contact.vue'),
+    path: '/videos/:id',
+    name: 'Video',
+    component: () => import(/* webpackChunkName "video" */ '@/views/Video.vue'),
     meta: {
-      title: `Cookies ${BASE_URL_TITLE}`
+      title: `Video ${BASE_URL_TITLE}`
     }
   },
   {
-    path: '/mas',
-    name: 'More',
-    component: () => import(/* webpackChunkName "more" */ '@/views/Contact.vue'),
+    path: '/:id',
+    name: 'Page',
+    component: () => import(/* webpackChunkName "page" */ '@/views/Static.vue'),
     meta: {
-      title: `Más ${BASE_URL_TITLE}`
-    }
-  },
-  {
-    path: '/privacidad',
-    name: 'Privacy',
-    component: () => import(/* webpackChunkName "privacy" */ '@/views/Contact.vue'),
-    meta: {
-      title: `Privacidad ${BASE_URL_TITLE}`
-    }
-  },
-  {
-    path: '/publicidad',
-    name: 'Advertising',
-    component: () => import(/* webpackChunkName "advertising" */ '@/views/Contact.vue'),
-    meta: {
-      title: `Publicidad ${BASE_URL_TITLE}`
+      title: `Página ${BASE_URL_TITLE}`
     }
   },
   {
