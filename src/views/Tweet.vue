@@ -5,6 +5,7 @@ import IconSpinner from "@/components/Icon/Spinner.vue"
 import UISidebarLeft from "@/components/UI/Sidebar/Left/index.vue"
 import UISidebarRight from "@/components/UI/Sidebar/Right/index.vue"
 
+const route = useRoute()
 const title = "Home"
 const Error = ref()
 const isError = ref(false)
@@ -37,7 +38,7 @@ const getItems = async () => {
   }
 }
 
-watch(() => useRoute().fullPath, () => getItems())
+watch(() => route.fullPath, () => getItems())
 onMounted(() => getItems())
 </script>
 

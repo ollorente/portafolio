@@ -7,7 +7,7 @@ const wrapperClasses = computed(() => `${defaultTransition} ${twitterBorderColor
 </script>
 
 <template>
-  <div class="p-3 cursor-pointer hover:bg-gray-100 dark:hover:bg-dim-300 border-b border-white" :class="wrapperClasses">
+  <div class="p-3 cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-900 border-b border-white" :class="wrapperClasses">
     <slot></slot>
   </div>
 </template>

@@ -19,9 +19,9 @@ const props = defineProps({
 <template>
   <div class="flex flex-col h-screen">
 
-    <div class="p-0 my-2 hover:bg-blue-50 hover:rounded-full w-min dark:hover:bg-white/20" :class="defaultTransition">
+    <div class="p-0 my-2 hover:bg-gray-200 hover:rounded-full w-min dark:hover:bg-white/20" :class="defaultTransition">
       <RouterLink to="/"
-        class="flex items-center p-3 text-black w-min rounded-full dark:hover:bg-dim-200 dark:text-white">
+        class="flex items-center p-3 text-black w-min rounded-full dark:hover:bg-gray-900 dark:text-white">
         <div class="w-12 h-12">
           <IconOllorente />
         </div>
@@ -78,19 +78,10 @@ const props = defineProps({
         </template>
       </UISidebarLeftTab>
 
-      <UISidebarLeftTab :url="{ name: 'Profile' }" class="hidden">
-        <template v-slot:icon>
-          <UserIcon />
-        </template>
-        <template v-slot:name>
-          Perfil
-        </template>
-      </UISidebarLeftTab>
-
     </div>
 
-    <RouterLink :to="{ name: 'Profile' }"
-      class="flex flex-row items-center justify-center px-2 py-2 mx-auto mt-auto mb-5 rounded-full cursor-pointer w-14 xl:w-full hover:bg-gray-100 dark:hover:bg-dim-800 my-4"
+    <RouterLink to="/perfil"
+      class="flex flex-row items-center justify-center px-2 py-2 mx-auto mt-auto mb-5 rounded-full cursor-pointer w-14 xl:w-full hover:bg-gray-200 dark:hover:bg-gray-900 my-4"
       :class="defaultTransition">
 
       <div class="flex flex-row">
@@ -108,7 +99,7 @@ const props = defineProps({
 
       <div class="hidden ml-auto xl:block">
         <div class="w-6 h-6">
-          <ChevronDownIcon />
+          <ChevronDownIcon class="dark:text-white" />
         </div>
       </div>
 

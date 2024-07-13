@@ -6,6 +6,7 @@ import UIGrafListFeed from "@/components/UI/Graf/ListFeed.vue"
 import useGraf from "@/composables/useGraf.js"
 
 const { GetAllGrafs } = useGraf()
+const route = useRoute()
 const title = "Home"
 const Error = ref()
 const isError = ref(false)
@@ -34,7 +35,7 @@ const getItems = async () => {
   }
 }
 
-watch(() => useRoute().fullPath, () => getItems())
+watch(() => route.fullPath, () => getItems())
 onMounted(() => getItems())
 </script>
 

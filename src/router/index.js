@@ -52,14 +52,6 @@ const routes = [
     }
   },
   {
-    path: '/perfil',
-    name: 'Profile',
-    component: () => import(/* webpackChunkName "profile" */ '@/views/Static.vue'),
-    meta: {
-      title: `Perfil ${BASE_URL_TITLE}`
-    }
-  },
-  {
     path: '/proyectos',
     name: 'Projects',
     component: () => import(/* webpackChunkName "projects" */ '@/views/Projects.vue'),

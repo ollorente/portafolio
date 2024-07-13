@@ -6,12 +6,10 @@ import UIMainDetailCarousel from "@/components/UI/Main/Detail/Carousel.vue"
 import UIMainDetailContent from "@/components/UI/Main/Detail/Content.vue"
 import useGraf from "@/composables/useGraf.js"
 import useMediaFile from "@/composables/useMediaFile.js"
-import useTailwindConfig from "@/composables/useTailwindConfig.js"
 
-const route = useRoute()
-const { twitterBorderColor } = useTailwindConfig()
 const { GetOneGraf } = useGraf()
 const { GetAllMediaFiles } = useMediaFile()
+const route = useRoute()
 const ID = route.params.id
 const title = "Animación"
 const Error = ref()
@@ -43,7 +41,7 @@ const getMediaFiles = async () => {
   mediaFiles.value = data
 }
 
-watch(() => useRoute().fullPath, () => getItem())
+watch(() => route.fullPath, () => getItem())
 onMounted(() => getItem())
 </script>
 
@@ -59,4 +57,4 @@ onMounted(() => getItem())
 
     </div>
   </UIMainDetail>
-</template>@/components/UI/Main/Detail/Detail.vue
+</template>
