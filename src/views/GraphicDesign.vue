@@ -2,6 +2,7 @@
 import { onMounted, ref, watch } from "vue"
 import { useRoute } from "vue-router"
 import UIMainDetail from "@/components/UI/Main/Detail/index.vue"
+import UIMainDetailCarousel from "@/components/UI/Main/Detail/Carousel.vue"
 import UIMainDetailContent from "@/components/UI/Main/Detail/Content.vue"
 import useGraf from "@/composables/useGraf.js"
 import useMediaFile from "@/composables/useMediaFile.js"
@@ -50,10 +51,7 @@ onMounted(() => getItem())
   <UIMainDetail :back="{ name: 'GraphicDesigns' }" :title="title">
     <div class="">
 
-      <div v-for="image in mediaFiles" :key="image.id" class="flex mt-4 mx-4 border-2 rounded-2xl"
-        :class="twitterBorderColor">
-        <img :src="image.url" class="w-full rounded-2xl" />
-      </div>
+      <UIMainDetailCarousel :images="mediaFiles" />
 
       <UIMainDetailContent>
         {{ item?.text }}
