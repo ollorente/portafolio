@@ -7,7 +7,7 @@ const user = ref({})
 </script>
 
 <template>
-  <div class="bg-white dark:bg-dim-900">
+  <div class="bg-white dark:bg-gray-950">
 
     <div class="min-h-full">
 

@@ -41,7 +41,7 @@ onMounted(() => getMediaFiles())
         <img :src="image.url" class="w-full rounded-2xl aspect-video object-cover" />
       </div>
 
-      <p class="flex-shrink font-medium text-gray-800 w-auto dark:text-hite pe-3" :class="textSize">
+      <p class="flex-shrink font-medium text-gray-800 w-auto dark:text-gray-100 pe-3" :class="textSize">
         {{ props.graf.text }}
       </p>
 

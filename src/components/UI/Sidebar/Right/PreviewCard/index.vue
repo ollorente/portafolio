@@ -10,9 +10,9 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="m-2 border border-transparent rounded-2xl bg-gray-50 dark:bg-dim-700 overflow-hidden" :class="twitterBorderColor">
+  <div class="m-2 border border-transparent rounded-2xl bg-gray-100 dark:bg-gray-800 overflow-hidden" :class="twitterBorderColor">
     
-    <h1 class="p-3 text-xl font-extrabold text-gray-900 border-b border-white dark:text-whiter-">{{ props.title }}</h1>
+    <h1 class="p-3 text-xl font-extrabold text-gray-900 border-b border-white dark:text-white">{{ props.title }}</h1>
 
     <slot></slot>
 

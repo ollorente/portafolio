@@ -49,7 +49,7 @@ function handleToggleDarkMode() {
       </div>
 
       <input v-model="search" type="search" placeholder="Buscar proyecto"
-        class="flex items-center w-full pl-12 text-sm text-dark font-normal dark:text-gray--100 bg-gray-200 border border-gray-200 rounded-full shadow dark:bg-dim-400 dark:border-dim-400 focus:bg-gray-100 dark:focus:bg-dim-900 focus:outline-none focus:border-blue-200 h-9">
+        class="flex items-center w-full pl-12 text-sm text-dark font-normal dark:text-gray--100 bg-gray-100 border border-gray-200 rounded-full shadow dark:bg-dim-400 dark:border-dim-400 focus:bg-gray-100 dark:focus:bg-dim-900 focus:outline-none focus:border-blue-200 h-9">
     </form>
 
     <UISidebarRightPreviewCard title="Tal vez te guste">

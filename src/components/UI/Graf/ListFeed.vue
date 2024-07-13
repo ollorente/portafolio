@@ -26,7 +26,7 @@ function redirect(graf) {
     </div>
 
     <div v-else v-for="graf in props.grafs" :key="graf?.id"
-      class="p-4 border-b hover:bg-gray-100 cursor-pointer dark:hover:bg-dim-300"
+      class="p-4 border-b hover:bg-gray-100 dark:hover:bg-gray-900 cursor-pointer dark:hover:bg-dim-300"
       :class="[defaultTransition, twitterBorderColor]" @click.navigate="redirect(graf)">
       <UIGrafItem :graf="graf" compact />
     </div>

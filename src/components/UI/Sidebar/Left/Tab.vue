@@ -19,7 +19,7 @@ const textClasses = computed(() => props.active ? "font-semibold" : "font-normal
 
  <template>
   
-  <RouterLink :to="props.url" class="flex items-center p-3 text-black w-min rounded-full hover:bg-gray-200 dark:hover:bg-dim-200 dark:text-white" :class="defaultTransition">
+  <RouterLink :to="props.url" class="flex items-center p-3 text-black w-min rounded-full hover:bg-gray-200 dark:hover:bg-gray-100 dark:text-white dark:hover:text-gray-950" :class="defaultTransition">
     
     <div class="w-6 h-6 text-dark">
       <slot name="icon"></slot>
