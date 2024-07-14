@@ -42,7 +42,7 @@ onMounted(() => getItem())
 
     <div v-if="item.mimeType" class="text-gray-900 dark:text-gray-100 p-4">{{ item.mimeType }}</div>
 
-    <div v-if="item.content" class="text-gray-900 dark:text-gray-100 p-4">{{ item.content }}</div>
+    <div v-if="item.content" class="text-gray-900 dark:text-gray-100 p-4" v-html="item.content"></div>
 
   </UIMainPost>
 </template>
