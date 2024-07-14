@@ -1,11 +1,12 @@
 import { HTTP } from "@/utils/fakeDB.js"
 import { MediaFile, RefMediaFile } from "@/interfaces/MediaFile.js"
+import paginator from "@/utils/paginator.js"
 
 const MODEL = "mediaFiles"
 
 export default () => {
   const GetAllMediaFiles = async (id, options) => {
-    const { limit = 10, page = 0 } = options
+    const P = paginator(options.limit, options.page)
 
     const items = await HTTP()
       .then(async (response) => {
@@ -22,7 +23,7 @@ export default () => {
             }
             return 0
           })
-          .splice(page, limit)
+          .splice(P.page, P.limit)
           .map(e => RefMediaFile(e))
       })
 
