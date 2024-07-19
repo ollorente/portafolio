@@ -7,16 +7,23 @@ const MODEL = "posts"
 export default () => {
   const GetAllPosts = async (options) => {
     const P = paginator(options.limit, options.page)
+    const types = ["accesibilidad", "cookies", "privacidad", "mas", "perfil", "publicidad"]
 
     const items = await HTTP()
       .then(async (response) => {
         return await response[MODEL]
           .filter(e => e.status === "public")
+          .filter(e => e.type !== types[0])
+          .filter(e => e.type !== types[1])
+          .filter(e => e.type !== types[2])
+          .filter(e => e.type !== types[3])
+          .filter(e => e.type !== types[4])
+          .filter(e => e.type !== types[5])
           .sort(function (a, b) {
-            if (a.order < b.order) {
+            if (a.createdAt < b.createdAt) {
               return 1
             }
-            if (a.order > b.order) {
+            if (a.createdAt > b.createdAt) {
               return -1
             }
             return 0
