@@ -38,7 +38,7 @@ onMounted(() => getItem())
     <div class="">
 
       <UIMainDetailContent>
-        <h1 v-if="item?.title" class="text-2xl font-semibold">{{ item?.title }}</h1>
+        <h1 v-if="item?.title" class="text-2xl font-semibold mb-4">{{ item?.title }}</h1>
         <div v-html="item?.content"></div>
       </UIMainDetailContent>
 
