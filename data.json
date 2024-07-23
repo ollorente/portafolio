@@ -1,5 +1,5 @@
 {
-  "commentMeta": [
+  "commentMetas": [
     {
       "id": "1638744961026",
       "commentId": "1638744961026",
@@ -320,6 +320,60 @@
       "postId": "1638745986126",
       "createdAt": "2021-12-06T14:20:09.0500z",
       "updatedAt": "2021-12-06T14:20:09.0500z"
+    },
+    {
+      "id": "a1aa",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj087RHLAFrGXQoR2Jd323WTg-Lk6KyZA-OJqv9IayBrvfhigbt3N_woMZ2FNvs6nLwy7CGhaBqDsaEkU5mRaHxA9yliDev-J5__xWzHjtd9IN6YssCwct-8RNj77rjqg0a7fIMaTg6TxKf/s320/ContainerHouse01.png",
+      "name": "",
+      "image": "",
+      "target": "",
+      "description": "",
+      "visible": "",
+      "owner": "1638744961026",
+      "rating": 0,
+      "updated": "0000-00-00T00:00:00.000z",
+      "rel": "",
+      "notes": "",
+      "rss": "",
+      "postId": "dc2f",
+      "createdAt": "2016-01-06T14:20:09.0500z",
+      "updatedAt": "2016-01-06T14:20:09.0500z"
+    },
+    {
+      "id": "9977",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnYa55V-y3Mz0TS7eiuRWQLh69jKHZZ78eMvXECuO0OF9s6TUiVaYwJlYWIfiy2EwtF4xLMRvRvVBG6aW0Zb1cs9VYlf7CgFGjiSG-4v2Ph4U500XS21X74oHBT7wYPEDFpYbH1xZVVkXj/s320/ContainerHouse08_6-04-49s.png",
+      "name": "",
+      "image": "",
+      "target": "",
+      "description": "",
+      "visible": "",
+      "owner": "1638744961026",
+      "rating": 0,
+      "updated": "0000-00-00T00:00:00.000z",
+      "rel": "",
+      "notes": "",
+      "rss": "",
+      "postId": "d7d2",
+      "createdAt": "2016-01-06T15:20:09.0500z",
+      "updatedAt": "2016-01-06T15:20:09.0500z"
+    },
+    {
+      "id": "37a8",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJMk1ku2-DjKMknQCC3FPsiZ4eNVJ0zSVcH_EJr_svWNorSa2QWqQvknuizWpZyHZYjbi4NgOFuYzzeItOkpgctYWCcylkF_VhEdYtoS2kPO5EbFgGBHrJABG58JiFLcN4IKxe00_Aw_6e/s1600/ContainerHouse13_4-47-58s.png",
+      "name": "",
+      "image": "",
+      "target": "",
+      "description": "",
+      "visible": "",
+      "owner": "1638744961026",
+      "rating": 0,
+      "updated": "0000-00-00T00:00:00.000z",
+      "rel": "",
+      "notes": "",
+      "rss": "",
+      "postId": "f188",
+      "createdAt": "2016-01-06T15:20:09.0500z",
+      "updatedAt": "2016-01-06T15:20:09.0500z"
     }
   ],
   "mediaFiles": [
@@ -390,7 +444,7 @@
       "updatedAt": "2021-12-06T14:20:09.0500z"
     }
   ],
-  "postMeta": [
+  "postMetas": [
     {
       "id": "1638744961026",
       "postId": "1638744961026",
@@ -865,7 +919,7 @@
       "author": "1638744961026",
       "date": "0000-00-00T00:00:00.000z",
       "dateGMT": "0000-00-00T00:00:00.000z",
-      "content": "<div><span>El hijo de Rana, Rin Rin Renacuajo, salió esta mañana muy tieso y muy majo…, así comienza este famoso cuento de Rafael Pombo, donde un joven se va de fiesta sin el consentimiento de la madre. Después de encontrarse con un amigo sigue su aventura.</span><br><span class=\"p-4\"><img alt=\"Rin Rin Renacuajo\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEjv-fWc4-zWV3n4FiU7gXHBVtQafzwkrlAcH4aZPL9G5iDSeugDnPB-rdFHehAUCdsnFjwta_ZRCtuDVidQ_IR6DCg-H_ZawiK5CBbdKwqdXvE9VpwP1eTGcEVdCacH71iXH-cWQ21may/s640/34479444806_c016bbc8f0_o.png\" title=\"Rin Rin Renacuajo\" class=\"w-full rounded\"></span><br><span class=\"text-sm text-center mx-auto\">Rin Rin Renacuajo</span><br><br><span>Entre los personajes que tiene este cuento he realizado a Rana, a Ratico y por supuesto a Rin Rin Renacuajo. Realizado con <b>Blender</b> y <b>Krita</b>.</span><br><span class=\"p-4\"><img alt=\"Rana, Rin Rin Renacuajo y Ratico\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin5zoXDK5bhHHPI26qk9vC-tLXNs1pG9bcULgFRPvIRlOCKF7vdN77ggN4itN8IUkztS3UBRFUEsjo6bunmzctbZb4RGL-WdukAfjx_juyNPFoCZ73nlHWDGr9ZZO4ijbE4Fq50qDki9LG/s640/33761022724_b35127fb65_o.png\" title=\"Rana, Rin Rin Renacuajo y Ratico\" class=\"w-full rounded\"></span><br><span class=\"text-sm text-center mx-auto\">Rana, Rin Rin Renacuajo y Ratico</span><br><br><span>Aquí está una prueba de movimiento de <b>Rin Rin renacuajo</b> en Youtube.</span><br><span class=\"p-4\"><iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" height=\"450\" src=\"https://www.youtube.com/embed/PkFnC7aSfio\" width=\"100%\"></iframe></span><br><span>Espero te guste, deja tus comentarios y pronto seguiré trabajando en el proyecto.</span></div>",
+      "content": "<div><span>El hijo de Rana, Rin Rin Renacuajo, salió esta mañana muy tieso y muy majo…, así comienza este famoso cuento de Rafael Pombo, donde un joven se va de fiesta sin el consentimiento de la madre. Después de encontrarse con un amigo sigue su aventura.</span><br><span class=\"p-4\"><img alt=\"Rin Rin Renacuajo\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEjv-fWc4-zWV3n4FiU7gXHBVtQafzwkrlAcH4aZPL9G5iDSeugDnPB-rdFHehAUCdsnFjwta_ZRCtuDVidQ_IR6DCg-H_ZawiK5CBbdKwqdXvE9VpwP1eTGcEVdCacH71iXH-cWQ21may/s640/34479444806_c016bbc8f0_o.png\" title=\"Rin Rin Renacuajo\" class=\"w-full rounded-2xl\"></span><br><span class=\"text-sm text-center mx-auto\">Rin Rin Renacuajo</span><br><br><span>Entre los personajes que tiene este cuento he realizado a Rana, a Ratico y por supuesto a Rin Rin Renacuajo. Realizado con <b>Blender</b> y <b>Krita</b>.</span><br><span class=\"p-4\"><img alt=\"Rana, Rin Rin Renacuajo y Ratico\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin5zoXDK5bhHHPI26qk9vC-tLXNs1pG9bcULgFRPvIRlOCKF7vdN77ggN4itN8IUkztS3UBRFUEsjo6bunmzctbZb4RGL-WdukAfjx_juyNPFoCZ73nlHWDGr9ZZO4ijbE4Fq50qDki9LG/s640/33761022724_b35127fb65_o.png\" title=\"Rana, Rin Rin Renacuajo y Ratico\" class=\"w-full rounded-2xl\"></span><br><span class=\"text-sm text-center mx-auto\">Rana, Rin Rin Renacuajo y Ratico</span><br><br><span>Aquí está una prueba de movimiento de <b>Rin Rin renacuajo</b> en Youtube.</span><br><span class=\"p-4\"><iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" frameborder=\"0\" height=\"450\" src=\"https://www.youtube.com/embed/PkFnC7aSfio\" width=\"100%\"></iframe></span><br><span>Espero te guste, deja tus comentarios y pronto seguiré trabajando en el proyecto.</span></div>",
       "title": "Rin Rin Renacuajo",
       "excerpt": "El hijo de Rana, Rin Rin Renacuajo, salió esta mañana muy tieso y muy majo…, así comienza este famoso cuento de Rafael Pombo, donde un joven se va de fiesta sin el consentimiento de la madre. Después de encontrarse con un amigo sigue su aventura.",
       "status": "public",
@@ -940,29 +994,111 @@
       "commentsCount": 0,
       "createdAt": "2010-05-07T03:22:09.0500z",
       "updatedAt": "2010-05-07T03:22:09.0500z"
+    },
+    {
+      "id": "dc2f",
+      "author": "1638744961026",
+      "date": "0000-00-00T00:00:00.000z",
+      "dateGMT": "0000-00-00T00:00:00.000z",
+      "content": "<div><span class=\"py-4\">Me he pasado a Blender, un programa para realizar trabajos en 3D y que es software gratuito y open source. También no consume muchos recursos, lo cual lo hace perfecto para mi computador viejito.</span><br><span class=\"py-4\">Rueda de 8 lados con solar.</span><br><span class=\"p-4\"><img class=\"w-full rounded-2xl\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj087RHLAFrGXQoR2Jd323WTg-Lk6KyZA-OJqv9IayBrvfhigbt3N_woMZ2FNvs6nLwy7CGhaBqDsaEkU5mRaHxA9yliDev-J5__xWzHjtd9IN6YssCwct-8RNj77rjqg0a7fIMaTg6TxKf/s320/ContainerHouse01.png\" style=\"cursor: move;\" ></span><br><br><span class=\"py-4\">Entrada vista desde adentro.</span><br><span class=\"p-4\"><img class=\"w-full rounded-2xl\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1v9W82mCNAweWE8qTEFspC-EnTr8g5iSa9eXaPN1JMs3sEZC6f8C2GuvpFvi8ePnzp8oGKQoay8895HDS2fx_xI3yR4d7rR0eTZ2YT7j8_2VveWj-mWVNaFyZt4oBDqB0z2Fu5JdwzBwo/s320/ContainerHouse04.png\" ></span><br><br><span class=\"py-4\">Propuesta de 2 pisos.</span><br><span class=\"p-4\"><img class=\"w-full rounded-2xl\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRHrTdB6cNaH_PE1KrzT-1ZElOywxPR88I6243TPvJtFn9_krKbiDTAX54mtR_zNr23ONpf3a0WxzOzS9R2nlMAVNC_lVeSIHENeaWJF4ADu3Ru1kYSYJ3XFjlRESQOdGN4Mi1scgyp0vG/s320/ContainerHouse06.png\" ></span><br><br><span class=\"py-4\">Vista desde el solar.</span><br><span class=\"p-4\"><img class=\"w-full rounded-2xl\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8n0XOZMBmB8zSGr0z-YP19yKHY1UvVjxL5kcb0uBODtBIpVD_xfC5wz7Q6YzMUhoQ70YxQ-n-2tatlOeHHSOISTPZcSlNLhs4CqW1vZGE5cL46s6O-bvWuOVWJf9Q31uXkyrycSx98-ir/s320/ContainerHouse07_5-28-49s.png\" ></span><br><span class=\"py-4\">Falta el detalle de las puertas y ventanas internas, obviamente los materiales.</span></div>",
+      "title": "Diseño Container 3D",
+      "excerpt": "Me he pasado a Blender, un programa para realizar trabajos en 3D y que es software gratuito y open source. También no consume muchos recursos, lo cual lo hace perfecto para mi computador viejito.",
+      "status": "public",
+      "commentStatus": "",
+      "pingStatus": "",
+      "password": "",
+      "name": "",
+      "toPing": "",
+      "pinged": "",
+      "modified": "0000-00-00T00:00:00.000z",
+      "modifiedGMT": "0000-00-00T00:00:00.000z",
+      "contentFiltered": "",
+      "parent": "",
+      "guid": "",
+      "order": 0,
+      "type": "animaciones",
+      "mimeType": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj087RHLAFrGXQoR2Jd323WTg-Lk6KyZA-OJqv9IayBrvfhigbt3N_woMZ2FNvs6nLwy7CGhaBqDsaEkU5mRaHxA9yliDev-J5__xWzHjtd9IN6YssCwct-8RNj77rjqg0a7fIMaTg6TxKf/s320/ContainerHouse01.png",
+      "commentsCount": 0,
+      "createdAt": "2016-01-06T14:20:09.0500z",
+      "updatedAt": "2016-01-06T14:20:09.0500z"
+    },
+    {
+      "id": "d7d2",
+      "author": "1638744961026",
+      "date": "0000-00-00T00:00:00.000z",
+      "dateGMT": "0000-00-00T00:00:00.000z",
+      "content": "<div><span class=\"py-4\">Contiuando con el <b>3D</b> y con <b>Blender</b>, presento una nueva propuesta. Aprendiendo a usar <b>Cycles</b>, que es el motor de render que trae incorporado.</span><br><span class=\"py-4\">Vista corredor sala-baño-entrada. A mano derecha la puerta trasera, donde quedaría la cocina y área del comedor.</span><br><span class=\"p-4\"><img class=\"w-full rounded-2xl\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnYa55V-y3Mz0TS7eiuRWQLh69jKHZZ78eMvXECuO0OF9s6TUiVaYwJlYWIfiy2EwtF4xLMRvRvVBG6aW0Zb1cs9VYlf7CgFGjiSG-4v2Ph4U500XS21X74oHBT7wYPEDFpYbH1xZVVkXj/s320/ContainerHouse08_6-04-49s.png\" ></span><br><br><span class=\"py-4\">Vista corredor entrada-baño-sala, con la habitación a mano izquierda.</span><br><span class=\"p-4\"><img class=\"w-full rounded-2xl\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD2jQd2oK-ymnwS4hDfdZcuw1FZ3e9ftQDkskHyHDa_FPbU3FEMRpmC9EtSv6aASnuZVqbB4HUfxKm8jrnq-KMOIiGFxP4_ULhjNHCqUDajgNyuAS9xbiESnRaKN_GsC2zSWqY73huIGwO/s320/ContainerHouse09_41-18s.png\" ></span><br><br><span class=\"py-4\">Vista exterior con decoración que al mismo tiempo sirve de protección, sobre todo en las ventanas.</span><br><span class=\"p-4\"><img class=\"w-full rounded-2xl\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5dlEYRSeuBOOj58SquDGf2xRHqqO57R36FnoS9f1ozgn3gpA2S4gvbhjcM76qaK-KieRetQa9dr1PjmVjLRh3EFEU55w59oO8sRBgJgbR3NbOnzCdb0H2iQKxaRt-WREg-mugdtyIfh28/s320/ContainerHouse10_07-20s.png\" ></span></div>",
+      "title": "Dos containers de 40 pies",
+      "excerpt": "Contiuando con el 3D y con Blender, presento una nueva propuesta. Aprendiendo a usar Cycles, que es el motor de render que trae incorporado.",
+      "status": "public",
+      "commentStatus": "",
+      "pingStatus": "",
+      "password": "",
+      "name": "",
+      "toPing": "",
+      "pinged": "",
+      "modified": "0000-00-00T00:00:00.000z",
+      "modifiedGMT": "0000-00-00T00:00:00.000z",
+      "contentFiltered": "",
+      "parent": "",
+      "guid": "",
+      "order": 0,
+      "type": "animaciones",
+      "mimeType": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnYa55V-y3Mz0TS7eiuRWQLh69jKHZZ78eMvXECuO0OF9s6TUiVaYwJlYWIfiy2EwtF4xLMRvRvVBG6aW0Zb1cs9VYlf7CgFGjiSG-4v2Ph4U500XS21X74oHBT7wYPEDFpYbH1xZVVkXj/s320/ContainerHouse08_6-04-49s.png",
+      "commentsCount": 0,
+      "createdAt": "2016-01-06T15:20:09.0500z",
+      "updatedAt": "2016-01-06T15:20:09.0500z"
+    },
+    {
+      "id": "f188",
+      "author": "1638744961026",
+      "date": "0000-00-00T00:00:00.000z",
+      "dateGMT": "0000-00-00T00:00:00.000z",
+      "content": "<div><div class=\"\">Fuente central del pueblo.</div><div class=\"p-4\"><img class=\"w-full rounded-2xl\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJMk1ku2-DjKMknQCC3FPsiZ4eNVJ0zSVcH_EJr_svWNorSa2QWqQvknuizWpZyHZYjbi4NgOFuYzzeItOkpgctYWCcylkF_VhEdYtoS2kPO5EbFgGBHrJABG58JiFLcN4IKxe00_Aw_6e/s320/ContainerHouse13_4-47-58s.png\"></div><div class=\"\">Fachada de casa (bosquejo).</div><div class=\"p-4\"><img class=\"w-full rounded-2xl\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmrusAGI6lJIQZyILW_ybNZaSDVSZ1Vbd2_Q5IXriygN7WP6j_qhUVxLcXY37zafZndobim4E9YO3htzlUVqklMEDFwKvU-TXx6mkX6nrB_a2XX_mjIjsPne80mt24dSFiuCeqP8p4BWDm/s320/ContainerHouse15_21-08s.png\"></div><div class=\"\">Vista aérea sobre las terrazas.</div><div class=\"p-4\"><img class=\"w-full rounded-2xl\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-Gtws5rlR39Ym-07hFChzDmpV2ZizuQI27I-xj_3q3PQCSwDQMq6NkzpmoHXfQfFhu_jqJXWdJOSFlXLfA4czCfShu-Q5G2DLbKVc4h_WUhfpnkfAqxGQ-sB-c9GouWl0l808Gqr1Nsz5/s320/ContainerHouse14_2-55-19s.png\"></div></div>",
+      "title": "Pequeño pueblo con containers de 20 pies",
+      "excerpt": "Fuente central del pueblo.",
+      "status": "public",
+      "commentStatus": "",
+      "pingStatus": "",
+      "password": "",
+      "name": "",
+      "toPing": "",
+      "pinged": "",
+      "modified": "0000-00-00T00:00:00.000z",
+      "modifiedGMT": "0000-00-00T00:00:00.000z",
+      "contentFiltered": "",
+      "parent": "",
+      "guid": "",
+      "order": 0,
+      "type": "animaciones",
+      "mimeType": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJMk1ku2-DjKMknQCC3FPsiZ4eNVJ0zSVcH_EJr_svWNorSa2QWqQvknuizWpZyHZYjbi4NgOFuYzzeItOkpgctYWCcylkF_VhEdYtoS2kPO5EbFgGBHrJABG58JiFLcN4IKxe00_Aw_6e/s1600/ContainerHouse13_4-47-58s.png",
+      "commentsCount": 0,
+      "createdAt": "2016-01-06T16:20:09.0500z",
+      "updatedAt": "2016-01-06T16:20:09.0500z"
     }
   ],
-  "term": [
+  "terms": [
     {
       "id": "1638744961026",
-      "name": "Page",
+      "name": "Borrar ya",
       "slug": "page",
       "termGroup": "1638744961026",
       "createdAt": "2021-12-06T14:20:09.0500z",
       "updatedAt": "2021-12-06T14:20:09.0500z"
     }
   ],
-  "termMeta": [],
+  "termMetas": [],
   "termRelationships": [
     {
       "id": "1638744961026",
       "termTaxonomyId": "1638744961026",
       "termOrder": 0,
       "createdAt": "2021-12-06T14:20:09.0500z",
-      "updatedAt": "2021-12-06T14:20:09.0500z"
+      "updatedAt": "2021-12-06T14:20:09.0500z",
+      "name": "Borrar ya"
     }
   ],
-  "termTaxonomy": [
+  "termTaxonomies": [
     {
       "id": "1638744961026",
       "termId": "1638744961026",
@@ -971,17 +1107,19 @@
       "parent": "1638744961026",
       "count": 0,
       "createdAt": "2021-12-06T14:20:09.0500z",
-      "updatedAt": "2021-12-06T14:20:09.0500z"
+      "updatedAt": "2021-12-06T14:20:09.0500z",
+      "name": "Borrar ya"
     }
   ],
-  "userMeta": [
+  "userMetas": [
     {
       "id": "1638744961026",
       "userId": "1638744961026",
       "key": "",
       "value": "",
       "createdAt": "2021-12-06T14:20:09.0500z",
-      "updatedAt": "2021-12-06T14:20:09.0500z"
+      "updatedAt": "2021-12-06T14:20:09.0500z",
+      "name": "Borrar ya"
     }
   ],
   "users": [
@@ -997,7 +1135,8 @@
       "status": 0,
       "displayName": "Admin",
       "createdAt": "2021-12-06T14:20:09.0500z",
-      "updatedAt": "2021-12-06T14:20:09.0500z"
+      "updatedAt": "2021-12-06T14:20:09.0500z",
+      "name": "Borrar ya"
     }
   ]
 }
